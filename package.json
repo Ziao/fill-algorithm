@@ -1,0 +1,14 @@
+{
+  "name": "fill-algorithm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.2.1",
+    "prettier": "^2.5.1"
+  },
+
+}
