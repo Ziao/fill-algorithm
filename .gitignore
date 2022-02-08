@@ -4,3 +4,5 @@ dist
 .idea
 .vscode
 .parcel-cache
+.DS_Store
+thumbs
