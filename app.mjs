@@ -4,7 +4,7 @@ import { getCoords, getIndex } from "./lib.mjs";
 export const grid = new Array(GRID_HEIGHT * GRID_WIDTH).fill(null);
 
 export const initGrid = () =>
-  grid.forEach((val, i) => (grid[i] = Math.random() < 0.5));
+  grid.forEach((val, i) => (grid[i] = Math.random() < 0.1));
 
 export const drawGrid = () => {
   const $grid = document.getElementById(`grid`);
